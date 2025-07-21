@@ -7,13 +7,6 @@
         <title>Lab Two</title>
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="emailForm.html">email form</a></li>
-            </ul>
-        </nav>
-
         <table>
             <tr>
                 <th scope="col">Band 1</th>
@@ -104,5 +97,22 @@
 
             <input type="submit" value="Submit">
         </form>
+        <br><br>
+        <h2>Form Submission</h2>
+        <p>Fill out the form below to submit your email.</p>
+
+        <div style="border: 1px solid black; width: 400px;">
+            <form method="POST">
+                <label>Name:</label>
+                <input type="text" name="name" required><br>
+                <label>Email:</label>
+                <input type="email" name="email" required><br>
+                <label>City:</label>
+                <input type="text" name="city" required><br>
+                <label>Comments:</label><br>
+                <textarea name="comments" rows="4" cols="30" required></textarea><br>
+                <input type="submit" value="Submit Comment">
+            </form>
+        </div>
     </body>
 </html>
