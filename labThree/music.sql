@@ -2,7 +2,7 @@
 
 -- Create Student table
 CREATE TABLE Student (
-    student_id INT PRIMARY KEY,
+    student_id INT PRIMARY KEY NOT NULL,
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL
@@ -10,13 +10,13 @@ CREATE TABLE Student (
 
 -- Create Instrument table
 CREATE TABLE Instrument (
-    instrument_name VARCHAR(50) PRIMARY KEY,
+    instrument_name VARCHAR(50) PRIMARY KEY NOT NULL,
     instrument_type VARCHAR(50) NOT NULL
 );
 
 -- Create Tutor table
 CREATE TABLE Tutor (
-    staff_id INT PRIMARY KEY,
+    staff_id INT PRIMARY KEY NOT NULL,
     tutor_first_name VARCHAR(50) NOT NULL,
     tutor_last_name VARCHAR(50) NOT NULL
 );
