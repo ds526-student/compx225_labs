@@ -22,4 +22,4 @@ INSERT INTO Instrument (instrument_name, instrument_type) VALUES
 ('Drums', 'percussion'),
 ('Guitar', 'strings'),
 ('Violin', 'strings'),
-('Cello', 'strings'),
+('Cello', 'strings');

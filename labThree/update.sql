@@ -1,33 +1,33 @@
 -- which instruments are played by each student
 INSERT INTO Plays (student_id, instrument_name) VALUES
--- John Smith plays Piano and Guitar
+-- John Smith
 (1, 'Piano'),
 (1, 'Guitar'),
--- Jane Johnson plays Flute
+-- Jane Johnson
 (2, 'Flute'),
--- Michael Brown plays Drums and Piano
+-- Michael Brown
 (3, 'Drums'),
 (3, 'Piano'),
--- Emily Davis plays Cello and Oboe
+-- Emily Davis
 (4, 'Cello'),
 (4, 'Oboe'),
--- David Wilson plays Violin
+-- David Wilson
 (5, 'Violin');
 
 -- which instruments are taught by each tutor
 INSERT INTO Teach (staff_id, instrument_name) VALUES
--- Alice Taylor teaches Piano and Violin
+-- Alice Taylor
 (101, 'Piano'),
 (101, 'Violin'),
--- Bob Anderson teaches Guitar and Drums
+-- Bob Anderson
 (102, 'Guitar'),
 (102, 'Drums'),
--- Charlie Thomas teaches Flute and Oboe
+-- Charlie Thomas
 (103, 'Flute'),
 (103, 'Oboe'),
--- Diana Jackson teaches Cello and Piano
+-- Diana Jackson
 (104, 'Cello'),
 (104, 'Piano'),
--- Ethan White teaches Guitar and Flute
+-- Ethan White
 (105, 'Guitar'),
 (105, 'Flute');
